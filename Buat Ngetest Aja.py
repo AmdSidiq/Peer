@@ -8,4 +8,3 @@ diskon = float(input("Masukkan diskon (%): "))
 
 harga_akhir = hitung_diskon(harga_awal, diskon)
 print(f"Harga setelah diskon: Rp{harga_akhir}")
-#yaudha sih
