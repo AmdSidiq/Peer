@@ -1,5 +1,5 @@
 # Program Kalkulasi Pengeluaran Mingguan
-
+print("Test")
 # Fungsi untuk menampilkan pengeluaran harian
 def tampilkan_pengeluaran(hari, data):
     print(f"\nPengeluaran hari {hari.capitalize()}:")
@@ -48,7 +48,7 @@ for hari in hari_list:
         })
 
         lanjut = input("Apakah ingin menambah pengeluaran lagi di hari ini? (y/n): ").lower()
-        if lanjut == "n":
+        if lanjut == "n":   
             break
 
     # Tampilkan pengeluaran per hari
